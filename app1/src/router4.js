@@ -19,7 +19,7 @@ export default function Router4() {
           <Route path="/products" element={<Products />} />
           <Route path="/member" element={<Member />} /> {}
           <Route path="/contact" element={<div style={{ textAlign: 'center' }}>Contact Page</div>} />
-          <Route path="/*" element={<Navigate to="/" />} /> {}
+          <Route path="/*" element={<Navigate to="/*" />} /> {}
         </Routes>
       </div>
     </BrowserRouter>
